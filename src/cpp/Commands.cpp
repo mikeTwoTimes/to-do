@@ -89,13 +89,12 @@ void Commands::edit(std::vector<Task>& todo) {
       std::cout << "\nEnter an edited description of the task.\n\n";
       std::cout << "[guest@To-Do edit]$ ";
       std::getline(std::cin, task.desc);
+      std::cout << "\n";
 
       found = true;
       break;
     }
   }
-
-  std::cout << "\n";
 
   if (!found) {
     std::cout << "\nTask does not exist.\n\n";
