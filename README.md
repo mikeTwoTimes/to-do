@@ -10,7 +10,7 @@
 
 DESCRIPTION:
 
-An interactive to-do list that has all the basic features you would want, available for UNIX consoles.
+An interactive console to-do list that has all the basic features you would want, available for UNIX systems.
 
 COMPILATION:
 
