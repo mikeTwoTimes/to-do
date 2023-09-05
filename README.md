@@ -20,7 +20,11 @@ Next compile all the .cpp files using 'g++ -c'
 
 Finally compile all the .o files together in this order: 
 
-g++ -o (app name) main.o Commands.o File_Output.o Prompts.o Task.o File_Input.o
+g++ -o app_name main.o Commands.o File_Output.o Prompts.o Task.o File_Input.o
+
+EXECUTION:
+
+./app_name
 
 USAGE: 
 
