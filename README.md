@@ -14,11 +14,11 @@ An interactive console to-do list that has all the basic features you would want
 
 COMPILATION:
 
-First copy all the files from the src into a directory of your choice
+- First copy all the files from the src into a directory of your choice
 
-Next compile all the .cpp files using 'g++ -c'
+- Next compile all the .cpp files using 'g++ -c'
 
-Finally compile all the .o files together in this order: 
+- Finally compile all the .o files together in this order: 
 
 g++ -o app_name main.o Commands.o File_Output.o Prompts.o Task.o File_Input.o
 
@@ -32,6 +32,6 @@ USAGE:
 
 FEATURES:
 
-Allows users the ability to create, edit, and delete tasks. All while using a console themed UI. 
+- Allows users the ability to create, edit, and delete tasks. All while using a console themed UI. 
 
-The program will save the tasks to a .txt file called "tasks.txt".
+- The program will save the tasks to a .txt file called "tasks.txt".
